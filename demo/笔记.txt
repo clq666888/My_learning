@@ -1,0 +1,90 @@
+📁 目录操作
+bash
+
+pwd                     # 显示当前所在目录
+cd 目录名               # 进入目录
+cd ..                   # 退回上一级目录
+cd ~                    # 返回家目录
+cd -                    # 返回上次的目录
+
+📂 查看文件列表
+bash
+
+ls                      # 列出当前目录文件/文件夹
+ll                      # 等于 ls -l，详细列表（含权限、大小、时间）
+ls -a                   # 显示隐藏文件（.开头）
+ls -la                  # 详细列表 + 隐藏文件
+
+📄 文件/目录操作
+bash
+
+mkdir 文件夹名          # 创建目录
+mkdir -p a/b/c          # 递归创建多级目录
+touch 文件名            # 创建空文件
+cp 源文件 目标文件      # 复制文件
+cp -r 源目录 目标目录   # 复制整个目录
+mv 源文件 目标          # 移动文件，或重命名
+rm 文件名               # 删除文件（删不掉可加 -f）
+rm -r 目录名            # 删除目录
+cat 文件名              # 查看文件全部内容
+less 文件名             # 分页查看长文件（q 退出）
+
+✏️ 简单编辑（命令行里写文件）
+bash
+
+nano 文件名             # 简易文本编辑器，Ctrl+X 退出，Y 保存，Enter 确认
+vim  文件名             # 更强大的编辑器（初期可先不学，用 nano 代替）
+
+🔐 权限（常见情况：程序需要执行权限）
+bash
+
+chmod +x 文件名         # 添加可执行权限，之后就可以 ./文件名 运行
+
+
+编译并生成可执行程序 gcc 文件1.c 文件2.c -o 可执行文件名
+将c文件1和2编译成可被linux系统执行的文件，其中o代表output
+
+上面的生成过程可详细分为以下四个步骤
+1.预处理: -E (生成 .i)
+2.编译: -S (生成 .s)。
+3.汇编: -c (生成 .o)。
+4.链接: gcc *.o -o 程序
+例子：gcc -E 文件1.c -o 可执行文件名.i    将文件1进行预处理
+
+
+
+Makefile使用手册
+在项目文件下直接创建名为“Makefile”的文件，可在根目录下执行make指令调用
+Makefile组成一般分三部分：
+<目标名称>:<前置依赖>
+(这里要输入一个tab)<需要执行命令>
+例子：
+demo: my_function.o demo.o
+	gcc my_function.o demo.o -o demo	
+
+demo.o: demo.c my_function.h
+	gcc -c demo.c -o demo.o
+
+my_function.o: my_function.c my_function.h
+	gcc -c my_function.c -o my_function.o
+
+clean:
+	rm demo.o my_function.o 
+
+可以理解为
+函数名：传入参数（即o文件）
+	执行的指令
+这里并非真的函数名，这是makefile的引用目标生成名字，应保证目标名字和执行指令实际生成的名字一致，如下开头和结尾均为demo
+demo: my_function.o demo.o
+	gcc my_function.o demo.o -o demo
+需要执行什么就在终端调用 make+“函数名” ，单纯的“make”就是调用makefile文件第一个函数
+可以省略成这样
+demo.o: my_function.h 
+my_function.o: my_function.h 
+
+
+
+
+
+
+
