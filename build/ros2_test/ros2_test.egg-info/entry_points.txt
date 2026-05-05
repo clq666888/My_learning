@@ -1,0 +1,4 @@
+[console_scripts]
+demo_hello = ros2_test.demo:hello
+demo_main = ros2_test.demo:main
+
