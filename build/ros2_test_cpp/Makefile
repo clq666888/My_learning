@@ -198,24 +198,24 @@ ros2_test_cpp_uninstall/fast:
 .PHONY : ros2_test_cpp_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named node_read_hello
+# Target rules for targets named node_say_hello
 
 # Build rule for target.
-node_read_hello: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 node_read_hello
-.PHONY : node_read_hello
+node_say_hello: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 node_say_hello
+.PHONY : node_say_hello
 
 # fast build rule for target.
-node_read_hello/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_read_hello.dir/build.make CMakeFiles/node_read_hello.dir/build
-.PHONY : node_read_hello/fast
+node_say_hello/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_say_hello.dir/build.make CMakeFiles/node_say_hello.dir/build
+.PHONY : node_say_hello/fast
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_read_hello.dir/build.make CMakeFiles/node_read_hello.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_say_hello.dir/build.make CMakeFiles/node_say_hello.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -223,7 +223,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_read_hello.dir/build.make CMakeFiles/node_read_hello.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_say_hello.dir/build.make CMakeFiles/node_say_hello.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -231,7 +231,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_read_hello.dir/build.make CMakeFiles/node_read_hello.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_say_hello.dir/build.make CMakeFiles/node_say_hello.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -249,7 +249,7 @@ help:
 	@echo "... test"
 	@echo "... ros2_test_cpp_uninstall"
 	@echo "... uninstall"
-	@echo "... node_read_hello"
+	@echo "... node_say_hello"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/sti/ros2/build/ros2_test_cpp
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/node_read_hello.dir/all
+all: CMakeFiles/node_say_hello.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,7 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/ros2_test_cpp_uninstall.dir/clean
-clean: CMakeFiles/node_read_hello.dir/clean
+clean: CMakeFiles/node_say_hello.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -129,30 +129,30 @@ CMakeFiles/ros2_test_cpp_uninstall.dir/clean:
 .PHONY : CMakeFiles/ros2_test_cpp_uninstall.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/node_read_hello.dir
+# Target rules for target CMakeFiles/node_say_hello.dir
 
 # All Build rule for target.
-CMakeFiles/node_read_hello.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_read_hello.dir/build.make CMakeFiles/node_read_hello.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_read_hello.dir/build.make CMakeFiles/node_read_hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sti/ros2/build/ros2_test_cpp/CMakeFiles --progress-num=1,2 "Built target node_read_hello"
-.PHONY : CMakeFiles/node_read_hello.dir/all
+CMakeFiles/node_say_hello.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_say_hello.dir/build.make CMakeFiles/node_say_hello.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_say_hello.dir/build.make CMakeFiles/node_say_hello.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sti/ros2/build/ros2_test_cpp/CMakeFiles --progress-num=1,2 "Built target node_say_hello"
+.PHONY : CMakeFiles/node_say_hello.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/node_read_hello.dir/rule: cmake_check_build_system
+CMakeFiles/node_say_hello.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sti/ros2/build/ros2_test_cpp/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/node_read_hello.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/node_say_hello.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sti/ros2/build/ros2_test_cpp/CMakeFiles 0
-.PHONY : CMakeFiles/node_read_hello.dir/rule
+.PHONY : CMakeFiles/node_say_hello.dir/rule
 
 # Convenience name for target.
-node_read_hello: CMakeFiles/node_read_hello.dir/rule
-.PHONY : node_read_hello
+node_say_hello: CMakeFiles/node_say_hello.dir/rule
+.PHONY : node_say_hello
 
 # clean rule for target.
-CMakeFiles/node_read_hello.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_read_hello.dir/build.make CMakeFiles/node_read_hello.dir/clean
-.PHONY : CMakeFiles/node_read_hello.dir/clean
+CMakeFiles/node_say_hello.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node_say_hello.dir/build.make CMakeFiles/node_say_hello.dir/clean
+.PHONY : CMakeFiles/node_say_hello.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

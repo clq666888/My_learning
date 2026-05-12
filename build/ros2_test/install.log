@@ -11,5 +11,5 @@
 /home/sti/ros2/install/ros2_test/lib/python3.12/site-packages/ros2_test-0.0.0-py3.12.egg-info/dependency_links.txt
 /home/sti/ros2/install/ros2_test/lib/python3.12/site-packages/ros2_test-0.0.0-py3.12.egg-info/zip-safe
 /home/sti/ros2/install/ros2_test/lib/python3.12/site-packages/ros2_test-0.0.0-py3.12.egg-info/requires.txt
-/home/sti/ros2/install/ros2_test/lib/ros2_test/demo_hello
-/home/sti/ros2/install/ros2_test/lib/ros2_test/demo_main
+/home/sti/ros2/install/ros2_test/lib/ros2_test/node_helloworld
+/home/sti/ros2/install/ros2_test/lib/ros2_test/node_say_hello

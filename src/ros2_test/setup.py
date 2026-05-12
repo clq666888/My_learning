@@ -24,8 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'demo_main = ros2_test.demo:main',
-            'demo_hello = ros2_test.demo:hello',
+            'node_say_hello = ros2_test.demo:main',
+            'node_helloworld = ros2_test.demo:hello',
         ],
     },
 )

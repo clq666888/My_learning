@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/py_topic_publisher/py_topic_publisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_topic_publisher/py_topic_publisher.egg-info/dependency_links.txt
+writing entry points to ../../build/py_topic_publisher/py_topic_publisher.egg-info/entry_points.txt
+writing requirements to ../../build/py_topic_publisher/py_topic_publisher.egg-info/requires.txt
+writing top-level names to ../../build/py_topic_publisher/py_topic_publisher.egg-info/top_level.txt
+reading manifest file '../../build/py_topic_publisher/py_topic_publisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_topic_publisher/py_topic_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py_topic_publisher/py_publisher.py -> /home/sti/ros2/build/py_topic_publisher/build/lib/py_topic_publisher
+running install
+running install_lib
+copying /home/sti/ros2/build/py_topic_publisher/build/lib/py_topic_publisher/py_publisher.py -> /home/sti/ros2/install/py_topic_publisher/lib/python3.12/site-packages/py_topic_publisher
+byte-compiling /home/sti/ros2/install/py_topic_publisher/lib/python3.12/site-packages/py_topic_publisher/py_publisher.py to py_publisher.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/sti/ros2/install/py_topic_publisher/lib/python3.12/site-packages/py_topic_publisher-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/py_topic_publisher/py_topic_publisher.egg-info to /home/sti/ros2/install/py_topic_publisher/lib/python3.12/site-packages/py_topic_publisher-0.0.0-py3.12.egg-info
+running install_scripts
+Installing publisher script to /home/sti/ros2/install/py_topic_publisher/lib/py_topic_publisher
+writing list of installed files to '/home/sti/ros2/build/py_topic_publisher/install.log'

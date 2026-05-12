@@ -1,0 +1,2 @@
+[console_scripts]
+publisher = py_topic_publisher.py_publisher:main

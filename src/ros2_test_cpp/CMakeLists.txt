@@ -24,10 +24,10 @@ endif()
 ament_package()
 
 
-add_executable(node_read_hello src/main.cpp)
-ament_target_dependencies(node_read_hello rclcpp)
+add_executable(node_say_hello src/main.cpp)
+ament_target_dependencies(node_say_hello rclcpp)
 
 install(TARGETS 
-	node_read_hello
+	node_say_hello
   DESTINATION lib/${PROJECT_NAME}
 )

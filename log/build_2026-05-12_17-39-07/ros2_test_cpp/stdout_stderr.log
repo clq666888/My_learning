@@ -1,0 +1,18 @@
+[100%] Built target node_say_hello
+-- Install configuration: ""
+-- Up-to-date: /home/sti/ros2/install/ros2_test_cpp/share/ament_index/resource_index/package_run_dependencies/ros2_test_cpp
+-- Up-to-date: /home/sti/ros2/install/ros2_test_cpp/share/ament_index/resource_index/parent_prefix_path/ros2_test_cpp
+-- Up-to-date: /home/sti/ros2/install/ros2_test_cpp/share/ros2_test_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sti/ros2/install/ros2_test_cpp/share/ros2_test_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sti/ros2/install/ros2_test_cpp/share/ros2_test_cpp/environment/path.sh
+-- Up-to-date: /home/sti/ros2/install/ros2_test_cpp/share/ros2_test_cpp/environment/path.dsv
+-- Up-to-date: /home/sti/ros2/install/ros2_test_cpp/share/ros2_test_cpp/local_setup.bash
+-- Up-to-date: /home/sti/ros2/install/ros2_test_cpp/share/ros2_test_cpp/local_setup.sh
+-- Up-to-date: /home/sti/ros2/install/ros2_test_cpp/share/ros2_test_cpp/local_setup.zsh
+-- Up-to-date: /home/sti/ros2/install/ros2_test_cpp/share/ros2_test_cpp/local_setup.dsv
+-- Installing: /home/sti/ros2/install/ros2_test_cpp/share/ros2_test_cpp/package.dsv
+-- Up-to-date: /home/sti/ros2/install/ros2_test_cpp/share/ament_index/resource_index/packages/ros2_test_cpp
+-- Up-to-date: /home/sti/ros2/install/ros2_test_cpp/share/ros2_test_cpp/cmake/ros2_test_cppConfig.cmake
+-- Up-to-date: /home/sti/ros2/install/ros2_test_cpp/share/ros2_test_cpp/cmake/ros2_test_cppConfig-version.cmake
+-- Up-to-date: /home/sti/ros2/install/ros2_test_cpp/share/ros2_test_cpp/package.xml
+-- Up-to-date: /home/sti/ros2/install/ros2_test_cpp/lib/ros2_test_cpp/node_say_hello

@@ -13,4 +13,4 @@
 /home/sti/ros2/install/ros2_test_cpp/share/ros2_test_cpp/cmake/ros2_test_cppConfig.cmake
 /home/sti/ros2/install/ros2_test_cpp/share/ros2_test_cpp/cmake/ros2_test_cppConfig-version.cmake
 /home/sti/ros2/install/ros2_test_cpp/share/ros2_test_cpp/package.xml
-/home/sti/ros2/install/ros2_test_cpp/lib/ros2_test_cpp/node_read_hello
+/home/sti/ros2/install/ros2_test_cpp/lib/ros2_test_cpp/node_say_hello
