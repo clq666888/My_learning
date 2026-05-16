@@ -14,3 +14,4 @@
 /home/sti/ros2/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig-version.cmake
 /home/sti/ros2/install/cpp_topic/share/cpp_topic/package.xml
 /home/sti/ros2/install/cpp_topic/lib/cpp_topic/cpp_publish
+/home/sti/ros2/install/cpp_topic/lib/cpp_topic/cpp_subscription

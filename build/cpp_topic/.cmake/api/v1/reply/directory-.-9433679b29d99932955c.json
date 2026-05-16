@@ -216,7 +216,7 @@
 			{
 				"command" : 0,
 				"file" : 4,
-				"line" : 30,
+				"line" : 34,
 				"parent" : 0
 			}
 		]
@@ -383,6 +383,29 @@
 			{
 				"id" : "cpp_publish::@6890427a1f51a3e7e1df",
 				"index" : 0
+			},
+			"destination" : "lib/cpp_topic",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "lib/cpp_topic",
+			"paths" : 
+			[
+				"cpp_subscription"
+			],
+			"targetId" : "cpp_subscription::@6890427a1f51a3e7e1df",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "cpp_subscription::@6890427a1f51a3e7e1df",
+				"index" : 1
 			},
 			"destination" : "lib/cpp_topic",
 			"type" : "cxxModuleBmi"

@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "cpp_publish"
+			"path" : "cpp_subscription"
 		}
 	],
 	"backtrace" : 1,
@@ -70,19 +70,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 27,
+				"line" : 30,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 30,
+				"line" : 34,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 28,
+				"line" : 31,
 				"parent" : 0
 			},
 			{
@@ -739,7 +739,7 @@
 			]
 		}
 	],
-	"id" : "cpp_publish::@6890427a1f51a3e7e1df",
+	"id" : "cpp_subscription::@6890427a1f51a3e7e1df",
 	"install" : 
 	{
 		"destinations" : 
@@ -1173,8 +1173,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "cpp_publish",
-	"nameOnDisk" : "cpp_publish",
+	"name" : "cpp_subscription",
+	"nameOnDisk" : "cpp_subscription",
 	"paths" : 
 	{
 		"build" : ".",
@@ -1195,7 +1195,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/cpp_publisher.cpp",
+			"path" : "src/cpp_subscription.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

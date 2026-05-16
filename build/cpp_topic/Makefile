@@ -210,6 +210,19 @@ cpp_publish/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_publish.dir/build.make CMakeFiles/cpp_publish.dir/build
 .PHONY : cpp_publish/fast
 
+#=============================================================================
+# Target rules for targets named cpp_subscription
+
+# Build rule for target.
+cpp_subscription: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpp_subscription
+.PHONY : cpp_subscription
+
+# fast build rule for target.
+cpp_subscription/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_subscription.dir/build.make CMakeFiles/cpp_subscription.dir/build
+.PHONY : cpp_subscription/fast
+
 src/cpp_publisher.o: src/cpp_publisher.cpp.o
 .PHONY : src/cpp_publisher.o
 
@@ -234,6 +247,30 @@ src/cpp_publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_publish.dir/build.make CMakeFiles/cpp_publish.dir/src/cpp_publisher.cpp.s
 .PHONY : src/cpp_publisher.cpp.s
 
+src/cpp_subscription.o: src/cpp_subscription.cpp.o
+.PHONY : src/cpp_subscription.o
+
+# target to build an object file
+src/cpp_subscription.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_subscription.dir/build.make CMakeFiles/cpp_subscription.dir/src/cpp_subscription.cpp.o
+.PHONY : src/cpp_subscription.cpp.o
+
+src/cpp_subscription.i: src/cpp_subscription.cpp.i
+.PHONY : src/cpp_subscription.i
+
+# target to preprocess a source file
+src/cpp_subscription.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_subscription.dir/build.make CMakeFiles/cpp_subscription.dir/src/cpp_subscription.cpp.i
+.PHONY : src/cpp_subscription.cpp.i
+
+src/cpp_subscription.s: src/cpp_subscription.cpp.s
+.PHONY : src/cpp_subscription.s
+
+# target to generate assembly for a file
+src/cpp_subscription.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_subscription.dir/build.make CMakeFiles/cpp_subscription.dir/src/cpp_subscription.cpp.s
+.PHONY : src/cpp_subscription.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... cpp_topic_uninstall"
 	@echo "... uninstall"
 	@echo "... cpp_publish"
+	@echo "... cpp_subscription"
 	@echo "... src/cpp_publisher.o"
 	@echo "... src/cpp_publisher.i"
 	@echo "... src/cpp_publisher.s"
+	@echo "... src/cpp_subscription.o"
+	@echo "... src/cpp_subscription.i"
+	@echo "... src/cpp_subscription.s"
 .PHONY : help
 
 

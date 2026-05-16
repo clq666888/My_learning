@@ -27,8 +27,13 @@ ament_package()
 add_executable(cpp_publish src/cpp_publisher.cpp)
 ament_target_dependencies(cpp_publish rclcpp std_msgs)
 
+add_executable(cpp_subscription src/cpp_subscription.cpp)
+ament_target_dependencies(cpp_subscription rclcpp std_msgs)
+
+
 install(TARGETS 
 	cpp_publish
+	cpp_subscription
   DESTINATION lib/${PROJECT_NAME}
 )
 
