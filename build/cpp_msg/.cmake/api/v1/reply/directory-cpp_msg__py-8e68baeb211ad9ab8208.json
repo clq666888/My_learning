@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "cpp_msg__py",
+		"source" : "/home/sti/ros2/build/cpp_msg/cpp_msg__py"
+	}
+}

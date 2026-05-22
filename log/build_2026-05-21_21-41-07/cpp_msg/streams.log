@@ -1,0 +1,23 @@
+[0.011s] Invoking command in '/home/sti/ros2/build/cpp_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sti/ros2_21_tutorials/install/learning_urdf:/home/sti/ros2_21_tutorials/install/learning_topic:/home/sti/ros2_21_tutorials/install/learning_tf:/home/sti/ros2_21_tutorials/install/learning_service:/home/sti/ros2_21_tutorials/install/learning_qos:/home/sti/ros2_21_tutorials/install/learning_pkg_python:/home/sti/ros2_21_tutorials/install/learning_parameter:/home/sti/ros2_21_tutorials/install/learning_node:/home/sti/ros2_21_tutorials/install/learning_launch:/home/sti/ros2_21_tutorials/install/learning_action:/home/sti/ros2_21_tutorials/install/learning_gazebo:/home/sti/ros2_21_tutorials/install/learning_cv:/home/sti/ros2/install/ros2_test:/home/sti/ros2/install/py_topic_publisher:/home/sti/ros2/install/py_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sti/ros2/src/cpp_msg -DCMAKE_INSTALL_PREFIX=/home/sti/ros2/install/cpp_msg
+[0.026s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.192s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.208s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.214s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.221s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.229s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.267s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.268s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.328s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.370s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.405s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.413s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.414s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.478s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.478s]   rosidl_generate_interfaces() the passed file 'msg/cpp_msg.msg' doesn't
+[0.478s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR '/home/sti/ros2/src/cpp_msg'
+[0.478s] Call Stack (most recent call first):
+[0.478s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[0.479s] 
+[0.479s] [0m
+[0.479s] -- Configuring incomplete, errors occurred!
+[0.484s] Invoked command in '/home/sti/ros2/build/cpp_msg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sti/ros2_21_tutorials/install/learning_urdf:/home/sti/ros2_21_tutorials/install/learning_topic:/home/sti/ros2_21_tutorials/install/learning_tf:/home/sti/ros2_21_tutorials/install/learning_service:/home/sti/ros2_21_tutorials/install/learning_qos:/home/sti/ros2_21_tutorials/install/learning_pkg_python:/home/sti/ros2_21_tutorials/install/learning_parameter:/home/sti/ros2_21_tutorials/install/learning_node:/home/sti/ros2_21_tutorials/install/learning_launch:/home/sti/ros2_21_tutorials/install/learning_action:/home/sti/ros2_21_tutorials/install/learning_gazebo:/home/sti/ros2_21_tutorials/install/learning_cv:/home/sti/ros2/install/ros2_test:/home/sti/ros2/install/py_topic_publisher:/home/sti/ros2/install/py_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sti/ros2/src/cpp_msg -DCMAKE_INSTALL_PREFIX=/home/sti/ros2/install/cpp_msg

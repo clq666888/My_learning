@@ -1,0 +1,6 @@
+{
+  "package_name": "cpp_msg",
+  "non_idl_tuples": [
+    "/home/sti/ros2/src/cpp_msg:msg/Mymsg.msg"
+  ]
+}
