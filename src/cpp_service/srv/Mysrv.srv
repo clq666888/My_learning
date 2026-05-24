@@ -1,0 +1,9 @@
+## 请求字段（客户端发送）
+string name
+int64 a
+int64 b
+---
+# 响应字段（服务端返回）
+bool success
+int64 sum
+

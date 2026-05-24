@@ -1,3 +1,0 @@
-[console_scripts]
-node_helloworld = ros2_test.demo:hello
-node_say_hello = ros2_test.demo:main

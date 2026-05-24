@@ -1,3 +1,0 @@
-[console_scripts]
-py_publisher = py_topic.py_pubilisher:main
-py_subscription = py_topic.py_subscription:main
