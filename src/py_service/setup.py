@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'py_service1 = py_service.py_service1:main'
+            'py_service1 = py_service.py_service1:main',
+            'py_client = py_service.py_client:main',
         ],
     },
 )

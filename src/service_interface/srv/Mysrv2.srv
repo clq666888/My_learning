@@ -1,3 +1,4 @@
 uint32 monney
 ---
+string name
 string[] result
