@@ -9,6 +9,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+find_package(action_msgs REQUIRED)              #Action需要action_msgs
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -25,6 +26,7 @@ endif()
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Mysrv1.srv"
   "srv/Mysrv2.srv"
+  "action/Myact.action"
 )
 
 ament_package()
