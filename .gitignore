@@ -1,0 +1,3 @@
+# 排除 VSCode 配置文件/目录（根目录及所有子目录）
+.vscode/
+*.code-workspace

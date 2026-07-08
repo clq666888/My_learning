@@ -39,3 +39,20 @@ fscanf_test: fscanf_test.c
 	$(CC) -o $@ $^
 	-./$@
 	-rm ./$@
+
+read_test: read_test.c
+	gcc -o read_test read_test.c
+	-./read_test
+	-rm read_test
+
+write_test: write_test.c
+	gcc -o write_test write_test.c
+	-./write_test
+	-rm write_test
+
+access_test: access_test.c
+	gcc -o access_test access_test.c
+	-./access_test
+	-rm access_test
+
+
